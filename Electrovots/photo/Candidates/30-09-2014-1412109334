@@ -1,0 +1,135 @@
+-- phpMyAdmin SQL Dump
+-- version 4.2.7.1
+-- http://www.phpmyadmin.net
+--
+-- Host: 127.0.0.1
+-- Generation Time: Sep 29, 2014 at 06:03 PM
+-- Server version: 5.6.20
+-- PHP Version: 5.5.15
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `optimos_db`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbladmin`
+--
+
+CREATE TABLE IF NOT EXISTS `tbladmin` (
+`AID` int(5) NOT NULL,
+  `admUserName` varchar(50) NOT NULL,
+  `Password` varchar(255) NOT NULL,
+  `FName` varchar(30) NOT NULL,
+  `MName` varchar(30) NOT NULL,
+  `LName` varchar(30) NOT NULL,
+  `Status` int(1) NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=24 ;
+
+--
+-- Dumping data for table `tbladmin`
+--
+
+INSERT INTO `tbladmin` (`AID`, `admUserName`, `Password`, `FName`, `MName`, `LName`, `Status`) VALUES
+(1, 'mcarlos', 'mcarlos', 'Monty', 'Natividad', 'Carlos', 1),
+(2, 'jroque', 'jroque', 'Roque', 'Silvanas', 'Roque', 0),
+(3, 'rtomas', 'rtomas', 'roger', 'jones', 'tomas', 1),
+(22, 'tkonse', 'tkonse', 'teodore', 'hau', 'konse', 1),
+(23, 'msantos', 'msantos', 'Marce', 'Dancel', 'Santos', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tblusers`
+--
+
+CREATE TABLE IF NOT EXISTS `tblusers` (
+`UID` int(11) NOT NULL,
+  `Username` varchar(50) NOT NULL,
+  `Password` varchar(50) NOT NULL,
+  `fname` varchar(40) NOT NULL,
+  `mname` varchar(30) NOT NULL,
+  `lname` varchar(30) NOT NULL,
+  `usertype` varchar(30) NOT NULL,
+  `status` int(1) NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=9 ;
+
+--
+-- Dumping data for table `tblusers`
+--
+
+INSERT INTO `tblusers` (`UID`, `Username`, `Password`, `fname`, `mname`, `lname`, `usertype`, `status`) VALUES
+(1, 'gwapito', 'gwapito123', 'Erwin', 'Namuco', 'Valdez', 'COO', 0),
+(2, 'marcee', 'pass555', 'Cedrick Marce', 'Dancel', 'Santos', 'Project Manager', 1),
+(3, 'sddas', 'sad', 'asdsa', 'dsad', 'sadsa', 'Project Manager', 1),
+(4, 'mmn,', 'ertet', 'ete', 'etre', 'ert', 'Project Manager', 1),
+(5, 'klklll', 'klll', 'kjkk', 'lokjl', 'jkjkj', 'Project Manager', 1),
+(6, 'hjhgj', 'gfdgfdg', 'fghgf', 'hgfgh', 'hgfhg', 'Architect', 1),
+(7, 'hjkhjhkjh', 'hgfhgff', 'fh', 'fhf', 'hfhgfhf', 'Project Manager', 1),
+(8, 'jhermano', 'hermanoj', 'Jackylyn', 'Cocoa', 'Hermano', 'COO', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tblusertype`
+--
+
+CREATE TABLE IF NOT EXISTS `tblusertype` (
+`id` int(11) NOT NULL,
+  `usertype` varchar(35) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `tbladmin`
+--
+ALTER TABLE `tbladmin`
+ ADD PRIMARY KEY (`AID`);
+
+--
+-- Indexes for table `tblusers`
+--
+ALTER TABLE `tblusers`
+ ADD PRIMARY KEY (`UID`);
+
+--
+-- Indexes for table `tblusertype`
+--
+ALTER TABLE `tblusertype`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `tbladmin`
+--
+ALTER TABLE `tbladmin`
+MODIFY `AID` int(5) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=24;
+--
+-- AUTO_INCREMENT for table `tblusers`
+--
+ALTER TABLE `tblusers`
+MODIFY `UID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=9;
+--
+-- AUTO_INCREMENT for table `tblusertype`
+--
+ALTER TABLE `tblusertype`
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -1,0 +1,9 @@
+<?php
+if(isset($_POST['logout'])){
+			session_unset();
+			session_destroy();
+}
+if(!isset($_SESSION['sess_AID'])){
+	header('location:../index.php');
+}
+?>

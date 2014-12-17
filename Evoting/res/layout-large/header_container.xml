@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bluegreen"
+    android:gravity="center" >
+
+    <ScrollView
+        android:id="@+id/scrollableContents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bluegreen"
+        android:scrollbars="none" >
+
+        <!-- Inflate the contents of the ScrollView dynamicaly -->
+
+    </ScrollView>
+
+    <!-- Header aligned to top -->
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,400);
+.notification {
+width: 300px;
+height: 80px;
+position: fixed;
+bottom: 0;
+right: -300px;
+background: #ecf0f1;
+margin-bottom: 10px;
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+font-style: bold;
+padding: 0 15px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+line-height: 80px;
+border-left: 5px solid;
+z-index: 2;
+}
+.notification-sStud{
+background-image:url(../photo/notif_success1.PNG);
+border-left-color: #3498db;
+color: #3498db;
+}
+.notification-sAdmin{
+background-image:url(../photo/notif_success4.PNG);
+border-left-color: #8d7e78;
+color: #8d7e78;
+}
+.notification-sParty{
+background-image:url(../photo/notif_success3.PNG);
+border-left-color: #566d96;
+color: #566d96;
+}
+.notification-sCandi{
+background-image:url(../photo/notif_success2.PNG);
+border-left-color: #ff9933;
+color: #ff9933;
+}
+.notification-fAll{
+background-image:url(../photo/notif_failed.PNG);
+border-left-color: #ff6666;
+color: #ff6666;
+}

@@ -1,0 +1,619 @@
+/* CSS Document */
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
+body,html{
+	pssglogoing:0;
+	margin:0;
+	background-color:#21ceb0;
+	min-height:600px;
+	min-width:1300px;
+	color:#474d4d;
+	font-family:Copperplate Gothic Light;
+}
+
+#wrapper{
+	height:100%;
+	width:100%;
+}
+
+fieldset {
+	 border:0px;
+}
+
+#topcontainer{
+	width:100%;
+	height:100px;
+	position:fixed;
+	z-index:1000;
+	margin-top:-220px;
+}
+
+#topwhite{
+	width:100%;
+	height:90px;
+	background:#fff;
+	z-index:30;
+	box-shadow: 1px 5px 15px 1px rgba(0,0,0,0.3);
+}
+#menucontainer{
+	margin:0 auto;
+	width:1125px;
+	height:150px;
+ 	margin-top:-80px;
+	z-index:10;	
+}
+
+#logo{
+	width:150px;
+	height:150px;
+	background-repeat:no-repeat;
+	background-image:url(../photo/proportion2.png);	
+}
+
+#iconcontainer{
+	height:100%;
+	width:600px;
+	margin-left:170px;
+	margin-top:-185px;
+}
+
+#studentcon{
+	height:100px;
+	width:300px;
+
+	}
+#studentcon:hover{
+	border-radius: 10px;
+	box-shadow: 0 0 10px 10px #fcfc63;
+}
+#resultcon{
+	height:100px;
+	width:300px;
+	margin-top:50px;
+	}
+#resultcon:hover{
+	border-radius: 10px;
+	box-shadow: 0 0 10px 10px #fcfc63;
+}
+	/*icons*/
+#icon1{
+	height:101px;
+	width:140px;
+	background-image:url(../photo/admin1.png);
+	margin-left:20px;
+	
+}
+
+#icon2{
+	height:101px;
+	width:140px;
+	background-image:url(../photo/student1.png);
+	margin-left:20px;
+}
+
+#icon3{
+	height:101px;
+	width:140px;
+	background-image:url(../photo/partylist1.png);
+	margin-left:20px;
+}
+
+#icon4{
+	height:101px;
+	width:140px;
+	background-image:url(../photo/candidate1.png);
+	margin-left:20px;
+}
+
+#icon5{
+	height:101px;
+	width:140px;
+	background-image:url(../photo/result1.png);
+	margin-left:20px;
+}
+
+#icon6{
+	height:101px;
+	width:140px;
+	background-image:url(../photo/tools1.png);
+	margin-left:20px;
+}
+	/* icon hover */
+div#icon1:hover{
+	background-image:url(../photo/admin2.png);
+	-webkit-transition: 1s ;
+	}
+div#icon2:hover{
+	background-image:url(../photo/student2.png);
+	-webkit-transition: 1s ;
+	}
+div#icon3:hover{
+	background-image:url(../photo/partylist2.png);
+	-webkit-transition: 1s ;
+	}
+div#icon4:hover{
+	background-image:url(../photo/candidate2.png);
+	-webkit-transition: 1s ;
+	}
+div#icon5:hover{
+	background-image:url(../photo/result2.png);
+	-webkit-transition: 1s ;
+}
+
+div#icon6:hover{
+	background:url(../photo/tools2.png);
+	-webkit-transition: 1s;
+}
+
+#bodycontainer{
+	margin: 0 auto;	
+	width: 1000px;
+	height:auto;
+	margin-top:220px;
+}
+
+#buttoncontainer{
+	width:auto;
+	height:250px;
+	margin-left:550px;
+	margin-top:100px;
+	
+	
+}
+#studbodybar{
+	height:40px;
+	width:1000px;
+	background:#3498db;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+}
+
+#studbodyruler{
+	height:5px;
+	width:1000px;
+	background:#2980b9;
+}
+
+#partybodybar{
+	height:40px;
+	width:1000px;
+	background:#566d96;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+}
+
+#partybodyruler{
+	height:5px;
+	width:1000px;
+	background:#3d4d6a;
+}
+
+#canbodybar{
+	height:40px;
+	width:1000px;
+	background:#f58929;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+}
+
+#canbodyruler{
+	height:5px;
+	width:1000px;
+	background:#c16c22;
+}
+
+#viewbodybar{
+	height:40px;
+	width:1000px;
+	background:#ff6b6b;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+}
+
+#viewbodyruler{
+	height:5px;
+	width:1000px;
+	background:#cc5858;
+}
+
+#adbodybar{
+	height:40px;
+	width:1000px;
+	background:#8d7e78;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+}
+
+#adbodyruler{
+	height:5px;
+	width:1000px;
+	background:#665a55;
+}
+
+#toolbodybar{
+	height:40px;
+	width:1000px;
+	background:#2ecc71;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+}
+
+#toolbodyruler{
+	height:5px;
+	width:1000px;
+	background:#24a159;
+}
+
+#bodytext{
+	display: block; 
+  	 height: 40px;
+  	 font: bold 20px/45px BankGothic Md BT,arial, sans-serif; 
+	 color:#ffffff;
+ 	 text-align:center;
+	 margin-left:10px;	
+}
+	
+
+#bodycontent{
+	margin: 0 auto;
+	width:1000px;	
+	height:auto;
+	position:absolute;
+	background:#ecf0f1;
+	}
+	
+#ssgmain{
+	height:450px;
+	width:450px;
+	background-image:url(../photo/ssglogo.png);
+	margin: 0 auto;
+
+}
+
+#ssglogoadmin{
+	margin-left:15px;
+	margin-bottom:15px;
+	height:450px;
+	width:450px;
+	background-image:url(../photo/ssglogo.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-top:-288px;
+	float:absolute;
+}
+
+#ssglogoadminedit{
+	margin-left:15px;
+	margin-bottom:15px;
+	height:450px;
+	width:450px;
+	background-image:url(../photo/ssglogo.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-top:-272px;
+	float:absolute;
+}
+
+#ssglogoadminpass{
+	margin-left:15px;
+	margin-bottom:15px;
+	height:450px;
+	width:450px;
+	background-image:url(../photo/ssglogo.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-top:-252px;
+	float:absolute;
+}
+
+#ssglogochangeyear{
+	margin-left:15px;
+	margin-bottom:15px;
+	height:450px;
+	width:450px;
+	background-image:url(../photo/ssglogo.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-top:-170px;
+	float:absolute;
+}
+
+#ssglogostudent{
+	height:450px;
+	width:450px;
+	background-image:url(../photo/ssglogo.png);
+	float:left;
+	margin-top:-342px;
+	float:absolute;
+	margin-left:15px;
+	margin-bottom:15px;
+}
+
+#ssglogoparty{
+	margin-left:15px;
+	margin-bottom:15px;
+	height:450px;
+	width:450px;
+	background-image:url(../photo/ssglogo.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-top:-288px;
+	float:absolute;
+}
+
+
+#ssglogopartyedit{
+	margin-left:15px;
+	margin-bottom:15px;
+	height:450px;
+	width:450px;
+	background-image:url(../photo/ssglogo.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-top:-326px;
+	float:absolute;
+}
+
+#ssglogostudentedit{
+	height:450px;
+	width:450px;
+	background-image:url(../photo/ssglogo.png);
+	float:left;
+	margin-top:-380px;
+	float:absolute;
+	margin-left:15px;
+	margin-bottom:15px;
+}
+
+#ssglogocandidate{
+	height:450px;
+	width:450px;
+	margin-top:-396px;
+	background-image:url(../photo/ssglogo.png);
+	float:left;
+	margin-left:15px;
+	margin-bottom:15px;
+}
+
+#ssglogocandidateedit{
+	height:450px;
+	width:450px;
+	margin-top:-434px;
+	background-image:url(../photo/ssglogo.png);
+	float:left;
+	margin-left:15px;
+	margin-bottom:15px;
+}
+
+#ssglogobackup{
+	margin-left:15px;
+	margin-top:-330px;
+	height:450px;
+	width:450px;
+	background-image:url(../photo/ssglogo.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-bottom:20px;
+	float:absolute;
+}
+
+/*drop down menu */
+.navigation {
+ 	 display: block; 
+  	 height: 40px;
+  	 font: bold 15px/40px arial; 
+ 	 text-align: center; 
+ 	 text-decoration: none; 
+ 	 color: #FFF;  
+ 	 -webkit-transition: 0.2s ease-in-out;
+ 	 -o-transition: 0.2s ease-in-out;
+ 	 transition: 0.2s ease-in-out;
+ 	 position: relative;
+ 	 z-index: 100;
+	
+}
+	ul,li { list-style-type: none;
+           padding:0;
+		 }
+	li>a:link {color:white;
+			}      /* unvisited link */
+	li>a:visited {color:white;
+			}  /* visited link */
+	li>a:hover {color:white;
+			background:#16a085;
+			border-top-left-radius:2em;
+			border-top-right-radius:2em;
+			border-bottom-right-radius:2em;
+			border-bottom-left-radius:2em;}  /* mouse over link */
+	li>a:active {color:white;
+			}  /* selected link */
+	li>a {
+  	  display:block;
+ 		 text-decoration: none;
+ 		 width: 100%;
+ 		 height: 100%;
+	}
+	
+.navigation li {
+	 
+	margin-left: 13px ;
+    width: 150px; 
+    height: 40px;
+    font: normal 15px Copperplate Gothic Light,Arial; 
+    text-align: center;
+    line-height:32px;
+    -webkit-transform-origin: 50% 0%;
+    -o-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-transform: perspective(350px) rotateX(-90deg);
+    -o-transform: perspective(350px) rotateX(-90deg);
+    transform: perspective(350px) rotateX(-90deg);
+	
+}
+
+.navigation li.n1 { 
+  -webkit-transition: 0.2s linear 0.2s;
+  -o-transition: 0.2s linear 0.2s;
+  transition: 0.2s linear 0.2s;
+  color:#FF0;
+
+  
+}
+
+.navigation li.n2 {
+  -webkit-transition: 0.2s linear 0.4s;
+  -o-transition: 0.2s linear 0.4s;
+  transition: 0.2s linear 0.4s;
+  color:#FF0;
+  margin-top:2px;
+ 
+}
+
+.navigation li.n3 {
+  -webkit-transition: 0.2s linear 0.6s;
+  -o-transition: 0.2s linear 0.6s;
+  transition: 0.2s linear 0.6s;
+  color:#FF0;
+  margin-top:2px;
+ 
+}
+
+.navigation li.n4 {
+  -webkit-transition: 0.2s linear 0.8s;
+  -o-transition: 0.2s linear 0.8s;
+  transition: 0.2s linear 0.8s;
+  color:#FF0;
+  margin-top:2px;
+ 
+}
+
+
+.navigation:hover li {
+  -webkit-transform: perspective(350px) rotateX(0deg);
+  -o-transform: perspective(350px) rotateX(0deg);
+  transform: perspective(350px) rotateX(0deg);
+  -webkit-transition:0.2s linear 0s;
+  -o-transition:0.2s linear 0s;
+  transition:0.2s linear 0s;
+     background:#21ceb0;
+	 border-top-left-radius:2em;
+			border-top-right-radius:2em;
+			border-bottom-right-radius:2em;
+			border-bottom-left-radius:2em;
+}
+
+
+
+.navigation:hover .n1 {
+  -webkit-transition-delay: 0.s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+    background:#21ceb0;
+	border-top-left-radius:2em;
+			border-top-right-radius:2em;
+			border-bottom-right-radius:2em;
+			border-bottom-left-radius:2em;
+
+}
+.navigation:hover .n2 {
+  -webkit-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+    background:#21ceb0;
+	border-top-left-radius:2em;
+			border-top-right-radius:2em;
+			border-bottom-right-radius:2em;
+			border-bottom-left-radius:2em;
+
+}
+.navigation:hover .n3 {
+  -webkit-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+    background:#21ceb0;
+	border-top-left-radius:2em;
+			border-top-right-radius:2em;
+			border-bottom-right-radius:2em;
+			border-bottom-left-radius:2em;
+
+}
+
+.navigation:hover .n4 {
+  -webkit-transition-delay: 0.6s;
+  -o-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+    background:#21ceb0;
+	border-top-left-radius:2em;
+			border-top-right-radius:2em;
+			border-bottom-right-radius:2em;
+			border-bottom-left-radius:2em;
+
+}
+
+/*Back to top button */
+
+#back-top {
+	position: fixed;
+	bottom: 14px;
+	margin-left:1200px;
+}
+#back-top a {
+	width: 108px;
+	display: block;
+	text-align: center;
+	font: 11px/100% Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+
+/* arrow icon (span tag) */
+#back-top span {
+	width:60px;
+	height:60px;
+	display: block;
+	margin-bottom: 7px;
+	background:url(../photo/up.png);
+	/* rounded corners */
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover span {
+	background:url(../photo/up2.png);
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+
+.Year{
+	width: 130px;
+	height: 80px;
+	position: fixed;
+	bottom: 0;
+	rigth: -100px;
+	padding-left:10px;
+	background: #fff;
+	margin-bottom: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 23px;
+	font-style: bold;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	line-height: 80px;
+	border-right: 7px solid;
+	border-right-color: #3498db;
+	color: #3498db;
+	box-shadow: 1px 5px 15px 1px rgba(0,0,0,0.5);
+}
+

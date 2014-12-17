@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Electrovots</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- about section -->
+    <string name="about1">Araullo University</string>
+    <string name="about2">PHINMA EDUCATION NETWORK</string>
+    <string name="about3">ELECTROVOTS v1.0</string>
+    <string name="about4">Bryan Kier Aradanas</string>
+    <string name="about5">Shastyn Joyce Manuel</string>
+    <string name="about6">Rens Daniel Ramos</string>
+    <string name="about7">BS Information Technology</string>
+    <string name="about8">CITE DEPARTMENT</string>
+
+    <!-- tips section -->
+    <string name="tips1">Always vote for principle, though you may vote alone, and you may cherish the sweetest reflection that your vote is never lost.</string>
+    <string name="tips2">-John Quincy Adams</string>
+    <string name="tips3">Here is a guideline to help you decide who you will pick!</string>
+    <string name="tips4">Who do you feel is an honest individual?</string>
+    <string name="tips5">Strong in character? One that has been up front and honest about all aspects of his life, and past? One that has surrounded himself with people that you can also respect and trust?</string>
+    <string name="tips6">Read about their views on issues before they began campaigning for school position.</string>
+    <string name="tips7">Often this is much more revealing of the true stance on issues than what they say during a campaign.</string>
+    <string name="tips8">Who says what he means, and means what he says? Who do you think is speaking from his heart, and truly cares about the of students at your school?</string>
+    <string name="tips9">Who cares more about his/her fellow students, then his/her desire to have the position in the school.</string>
+
+    <!-- user's manual section -->
+    <string name="guide1">1. Connect to WIFI (Choose wifi network within the voting poll).</string>
+    <string name="guide2">2. Open the Electrovots Application.</string>
+    <string name="guide3">3. Click  Vote Button</string>
+    <string name="guide4">4. To login, enter your username and password (It is case sensitive, so type it as it is).</string>
+    <string name="guide5">5. Now choose a position. (Be careful not to click submit button when you are not yet done in choosing your desired candidate, or else you may not cast your vote again).</string>
+    <string name="guide6">6. In the list of candidate, tap your desired candidate and then tap orange button to confirm.</string>
+    <string name="guide7">7. To be able to vote straight, tap the vote straight button. (Remember that vote straight means voting all candidates of a particular party list on all position).</string>
+    <string name="guide8">8. Then click your desired party list to vote.</string>
+    <string name="guide9">9. It will show the list of the candidate in the party list, tap OK for confirmation.</string>
+    <string name="guide10">10. Finally, tap the orange button to confirm.</string>
+    <string name="guide11">11. Once you are done choosing your desired candidate on each position, tap submit button once more.</string>
+    <string name="guide12">12. The application will show you the list of the candidates that you have been chosen, click OK for confirmation or Cancel and go back to Step 5 to modify your current list of candidates.</string>
+    <string name="guide13">13. After doing all the Steps 1 to 12, expect that your vote is casted and ready for the tally. Thank you for using Electrovots.</string>
+
+</resources>
